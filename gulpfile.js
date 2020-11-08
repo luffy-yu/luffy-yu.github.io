@@ -60,15 +60,6 @@ function scriptsVendors() {
 }
 
 /**
- * Sync svg files
- */
-
-function svgVendors(){
-    return gulp.src(['_site/assets/img/*.svg'])
-        .pipe(gulp.dest('assets/img'));
-}
-
-/**
  * Server functionality handled by BrowserSync
  */
 function browserSyncServe(done) {
@@ -135,7 +126,7 @@ function watch() {
   gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
 }
 
-var compile = gulp.parallel(styles, stylesVendors, scripts, scriptsVendors, svgVendors);
+var compile = gulp.parallel(styles, stylesVendors, scripts, scriptsVendors);
 var serve = gulp.series(compile, jekyll, browserSyncServe);
 var watch = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
 
