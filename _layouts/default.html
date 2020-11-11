@@ -40,9 +40,9 @@
     </div>
   </div>
   <div class="reading-progress-bar"> </div>
-  <div class="main-block" style="opacity: 1; display: block;">
+<!--  <div class="main-block">-->
   {% include landing-page.html %}
-  <div class="layout">
+  <div class="layout main-block">
     {%if site.show_aboutme_card %}
       <section class="card neumorphism-card-big">
         {% include section-aboutme.html %}
@@ -70,6 +70,6 @@
     {% endif %}
   </div>
   {% include footer.html %}
-  </div>
+<!--  </div>-->
 </body>
 </html>
