@@ -11,9 +11,9 @@ $(document).ready(function () {
     } catch (e) {
     }
     window.addEventListener('scroll', function () {
-        var $post = $('.main-block')
-        var h = $(window).scrollTop() - $post.position().top
-        var total = $post.height() - document.documentElement.clientHeight
+        var $main = $('.main-block')
+        var h = $(window).scrollTop() - $main.position().top
+        var total = $main.height() - document.documentElement.clientHeight
         var percent = Math.round(h / total * 100)
         if (percent < 0) percent = 0
         if (percent > 100) percent = 100
