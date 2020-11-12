@@ -23,11 +23,44 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-42FSKXHDPW"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
-    gtag('config', 'G-42FSKXHDPW');
+    gtag('config', "G-42FSKXHDPW");
   </script>
+  <!-- Google Analytics -->
+  
+  <script>
+    var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+    if (dnt != "1" && dnt != "yes") {
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+                i[r] ||
+                function () {
+                  (i[r].q = i[r].q || []).push(arguments);
+                }),
+                (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+              window,
+              document,
+              "script",
+              "https://www.google-analytics.com/analytics.js",
+              "ga"
+      );
+      ga("create", "G-42FSKXHDPW", "auto");
+      ga("send", "pageview");
+    }
+  </script>
+  
 </head>
 
 <body>
@@ -96,390 +129,11 @@
 
   <div class="layout main-block">
     
-      <section class="card neumorphism-card-big">
-        <h1 class="title">About Me</h1>
-<p class="description" data-aos="fade-down">Luffy Yu. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer"> JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.</p>
-
-      </section>
     
-    
-      <section class="card neumorphism-card-big">
-        <h1 class="title">Skills</h1>
-
-<div id="skills">
-  <input type="radio" id="all" name="filter" checked />
-  <label class="filter-button neumorphism-button" for="all">All</label>
-  <input type="radio" id="language" name="filter" />
-  <label class="filter-button neumorphism-button" for="language">Languages</label>
-  <input type="radio" id="framework" name="filter" />
-  <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
-  <input type="radio" id="tool" name="filter" />
-  <label class="filter-button neumorphism-button" for="tool">Tools</label>
-
-  
-    <div skill-type="language" skill-weight="5" data-aos="zoom-in">
-      TypeScript
-    </div>
-  
-    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
-      JavaScript
-    </div>
-  
-    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
-      Python
-    </div>
-  
-    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
-      HTML5
-    </div>
-  
-    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-      CSS3
-    </div>
-  
-    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-      SASS
-    </div>
-  
-    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
-      Java
-    </div>
-  
-    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
-      Dart
-    </div>
-  
-    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
-      Swift
-    </div>
-  
-    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
-      Kotlin
-    </div>
-  
-    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
-      C++
-    </div>
-  
-    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
-      Ruby
-    </div>
-  
-  
-    <div skill-type="framework" skill-weight="5" data-aos="zoom-in">
-      Angular
-    </div>
-  
-    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-      AngularJS
-    </div>
-  
-    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
-      React
-    </div>
-  
-    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
-      Node
-    </div>
-  
-    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
-      Flutter
-    </div>
-  
-    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-      Express
-    </div>
-  
-    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
-      Django
-    </div>
-  
-    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
-      Spring
-    </div>
-  
-    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
-      Rails
-    </div>
-  
-  
-    <div skill-type="tool" skill-weight="5" data-aos="zoom-in">
-      Git
-    </div>
-  
-    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-      Bash
-    </div>
-  
-    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-      Scrum
-    </div>
-  
-    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
-      Travis CI
-    </div>
-  
-    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
-      Jenkins
-    </div>
-  
-    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
-      Chrome DevTools
-    </div>
-  
-    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
-      npm
-    </div>
-  
-    <div skill-type="tool" skill-weight="4" data-aos="zoom-in">
-      gulp
-    </div>
-  
-    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-      VS Code
-    </div>
-  
-    <div skill-type="tool" skill-weight="4" data-aos="zoom-in">
-      Postman
-    </div>
-  
-</div>
-
-      </section>
-    
-    
-      <section class="card neumorphism-card-big">
-        <h1 class="title">Education & Experience</h1>
-<p class="subtitle">
-  For more information, have a look at my
-  <a class="highlight-link" href="https://example.com/" target="_blank" rel="noreferrer">
-    curriculum vitae
-  </a>.
-</p>
-
-<div class="timeline-wrapper">
-  <ul class="timeline">
-    
-      
-
-      
-        <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <span class="hexagon"></span>
-              <span class="flag neumorphism-button" data-aos="zoom-in-left">
-                <a href="https://example.com/" target="_blank" rel="noreferrer">
-                  <span>airbnb</span>
-                </a>
-              </span>
-              <span class="time-wrapper" data-aos="zoom-in-left">
-                <span class="time neumorphism-card">Sep 2019 - Present</span>
-              </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-left">
-              Fullstack Developer
-              
-                <div class="tag-wrapper">
-                  
-                    <span class="tag neumorphism-card">React</span>
-                  
-                    <span class="tag neumorphism-card">Javascript</span>
-                  
-                    <span class="tag neumorphism-card">Ruby</span>
-                  
-                    <span class="tag neumorphism-card">Rails</span>
-                  
-                </div>
-              
-            </div>
-          </div>
-        </li>
-      
-    
-      
-
-      
-        <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <span class="hexagon"></span>
-              <span class="flag neumorphism-button" data-aos="zoom-in-left">
-                <a href="https://example.com/" target="_blank" rel="noreferrer">
-                  <span>Google</span>
-                </a>
-              </span>
-              <span class="time-wrapper" data-aos="zoom-in-left">
-                <span class="time neumorphism-card">Mar 2019 - Sep 2019</span>
-              </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-left">
-              Software Engineer as Intern
-              
-                <div class="tag-wrapper">
-                  
-                    <span class="tag neumorphism-card">Flutter</span>
-                  
-                    <span class="tag neumorphism-card">Dart</span>
-                  
-                    <span class="tag neumorphism-card">Keycloak</span>
-                  
-                </div>
-              
-            </div>
-          </div>
-        </li>
-      
-    
-      
-        <li>
-          <div class="direction-l">
-            <div class="flag-wrapper">
-              <span class="hexagon"></span>
-              <span class="flag neumorphism-button" data-aos="zoom-in-right">
-                <a href="https://example.com/" target="_blank" rel="noreferrer">
-                  <span>Super University</span>
-                </a>
-              </span>
-              <span class="time-wrapper" data-aos="zoom-in-right">
-                <span class="time neumorphism-card">2017 - 2019</span>
-              </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-right">
-              M.Sc. Computer Science
-              
-            </div>
-          </div>
-        </li>
-      
-
-      
-    
-      
-
-      
-        <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <span class="hexagon"></span>
-              <span class="flag neumorphism-button" data-aos="zoom-in-left">
-                <a href="https://example.com/" target="_blank" rel="noreferrer">
-                  <span>Facebook</span>
-                </a>
-              </span>
-              <span class="time-wrapper" data-aos="zoom-in-left">
-                <span class="time neumorphism-card">Sep 2017 - Mar 2019</span>
-              </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-left">
-              Front-End Developer as Intern
-              
-                <div class="tag-wrapper">
-                  
-                    <span class="tag neumorphism-card">React</span>
-                  
-                    <span class="tag neumorphism-card">Node</span>
-                  
-                    <span class="tag neumorphism-card">Javascript</span>
-                  
-                </div>
-              
-            </div>
-          </div>
-        </li>
-      
-    
-      
-        <li>
-          <div class="direction-l">
-            <div class="flag-wrapper">
-              <span class="hexagon"></span>
-              <span class="flag neumorphism-button" data-aos="zoom-in-right">
-                <a href="https://example.com/" target="_blank" rel="noreferrer">
-                  <span>Super University</span>
-                </a>
-              </span>
-              <span class="time-wrapper" data-aos="zoom-in-right">
-                <span class="time neumorphism-card">2014 - 2017</span>
-              </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-right">
-              B.A. Computer Science
-              
-            </div>
-          </div>
-        </li>
-      
-
-      
-    
-  </ul>
-</div>
-
-      </section>
     
     
       <section class="card neumorphism-card-big">
         
-  <h1 class="title"><span>Projects</span></h1>
-  <div class="projects-wrapper">
-    
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
-          <h3>project X</h3>
-        </div>
-        <p class="project-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
-        
-          <a class="highlight-link" href="https://example.com/" target="_blank" rel="noreferrer">
-            Demo
-          </a>
-        
-        
-          <div class="tag-wrapper">
-            
-              <span class="tag neumorphism-card">MongoDB</span>
-            
-              <span class="tag neumorphism-card">Express</span>
-            
-              <span class="tag neumorphism-card">AngularJS</span>
-            
-              <span class="tag neumorphism-card">Node</span>
-            
-          </div>
-        
-      </div>
-    
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
-          <h3>project Y</h3>
-        </div>
-        <p class="project-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
-        
-          <a class="highlight-link" href="https://example.com/" target="_blank" rel="noreferrer">
-            Demo
-          </a>
-        
-        
-          <div class="tag-wrapper">
-            
-              <span class="tag neumorphism-card">Python</span>
-            
-              <span class="tag neumorphism-card">Django</span>
-            
-          </div>
-        
-      </div>
-    
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
-          <h3>project Z</h3>
-        </div>
-        <p class="project-desc">You can also set a project without demo link and no tags</p>
-        
-        
-      </div>
-    
-  </div>
-
 
 
   <h1 class="title">Open Source Projects</h1>
@@ -630,423 +284,41 @@
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>weekly-report</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Weekly Report</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/weekly-report" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
+    
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>web-hdf5</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc"></p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/web-hdf5" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
+    
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>vis_datasets</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Visualize Transfer Learning Datasets</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/vis_datasets" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
+    
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>reptiles</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Reptiles base on python.</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/reptiles" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
+    
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>painter</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">H5 Painter</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/painter" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
+    
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>OpmlParser</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc"></p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/OpmlParser" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
+    
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>mysql-visualisation</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">MySQL Visualisation</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/mysql-visualisation" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
+    
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>ML_in_python</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Study Machine Learning in Python: Essential Techniques for Predictive Analysis</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/ML_in_python" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
+    
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>mac-xdot</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">xdot.py for Mac</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/mac-xdot" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-                <span class="tag neumorphism-card">xdot</span>
-              
-            </div>
-          
-        </div>
-      
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>luffy-yu.github.io</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc"></p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/luffy-yu.github.io" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
     
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>kafka-producer</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Kafka Producer</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/kafka-producer" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>kafka-consumer-storm</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Kafka Consumer(Storm)</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/kafka-consumer-storm" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>hive2mysql</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Hive to MySQL</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/hive2mysql" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>hbase2hive</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Hbase to Hive</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/hbase2hive" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>Go2</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc"></p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/Go2" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>free_springer_downloader</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Free Springer eBooks Downloader</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/free_springer_downloader" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>DSRG-CAFFE-DIGITS-ENV</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">DSRG CAFFE DIGITS ENV</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/DSRG-CAFFE-DIGITS-ENV" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>deeplab-public-ver2</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">https://bitbucket.org/aquariusjay/deeplab-public-ver2.git</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/deeplab-public-ver2" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>cvpr2019papers</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Download CVPR2019 Papers</p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/cvpr2019papers" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
       
     
       
@@ -1080,47 +352,7 @@
       
     
       
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>compile2pyc</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc"></p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/compile2pyc" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
-      
     
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>ba</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc"></p>
-          
-          <a class="highlight-link" href="https://github.com/luffy-yu/ba" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-            </div>
-          
-        </div>
       
     
       
@@ -1161,49 +393,12 @@
       </section>
     
     
-    <section class="card neumorphism-card-big">
-      <h1 class="title">Contact</h1>
-<p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.</p>
-
-<div class="contact-icons">
-  
-  <a class="social-link" aria-label="My E-Mail" href="mailto:yuliuchuan@gmail.com">
-    <div class="social">
-      <svg class="social-svg" viewBox="0 0 48 48">
-        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope"></use>
-      </svg>
-    </div>
-  </a>
-  
-
-  
-  <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
-    href="https://github.com/luffy-yu">
-    <div class="social">
-      <svg class="social-svg" viewBox="0 0 48 48">
-        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
-      </svg>
-    </div>
-  </a>
-  
-
-  
-
-  
-
-  
-
-  
-</div>
-
-    </section>
-    
   </div>
   <footer class="footer">
   <p>
-    &copy; 2020 Designed & Developed by
-    <a class="highlight-link" href="https://longpdo.github.io/" target="_blank" rel="noreferrer">
-      Long Do
+    &copy; 2020
+    <a class="highlight-link" href="#" target="_self" rel="noreferrer">
+      chuange.org
     </a>
   </p>
   <p>
@@ -1215,39 +410,10 @@
     <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
       Github Pages
     </a>
+    and especially thank <a class="highlight-link" href="https://longpdo.github.io/" target="_blank" rel="noreferrer">
+    Long Do</a>
   </p>
 </footer>
-
-<!-- Google Analytics -->
-
-<script>
-  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
-  if (dnt != "1" && dnt != "yes") {
-    (function (i, s, o, g, r, a, m) {
-      i["GoogleAnalyticsObject"] = r;
-      (i[r] =
-        i[r] ||
-        function () {
-          (i[r].q = i[r].q || []).push(arguments);
-        }),
-        (i[r].l = 1 * new Date());
-      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m);
-    })(
-      window,
-      document,
-      "script",
-      "https://www.google-analytics.com/analytics.js",
-      "ga"
-    );
-    ga("create", "G-42FSKXHDPW", "auto");
-    ga("send", "pageview");
-  }
-</script>
-
-
 <!--  </div>-->
 </body>
 </html>
