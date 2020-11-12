@@ -112,6 +112,7 @@ TxtRotate.prototype.tick = function() {
 
 function randomizeOrder() {
   var parent = document.getElementById('skills');
+  if (!parent) return;
   var divs = parent.getElementsByTagName('div');
   var frag = document.createDocumentFragment();
 

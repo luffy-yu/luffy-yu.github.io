@@ -20,7 +20,7 @@
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-42FSKXHDPW"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google-analytics.id }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -73,9 +73,8 @@
     </div>
   </div>
   <div class="reading-progress-bar"> </div>
-<!--  <div class="main-block">-->
   {% include landing-page.html %}
-  <div class="layout main-block">
+  <div class="layout">
     {%if site.show_aboutme_card %}
       <section class="card neumorphism-card-big">
         {% include section-aboutme.html %}
