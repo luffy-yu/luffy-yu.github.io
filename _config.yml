@@ -11,7 +11,7 @@ baseurl: ""
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
-username: Luffy-Yu
+username: Luffy Yu
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: An Idealism Doer
@@ -30,28 +30,22 @@ twitter_username:
 # show_aboutme_card:
 # > setting this to true, will display the About Me section
 # > setting this to false, will omit the About Me section
-show_aboutme_card: false
+show_aboutme_card: True
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
 about_me_description:
-  Luffy Yu.
-  Lorem ipsum dolor sit amet,
-  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-  magna aliquyam erat, sed diam voluptua.
-  At vero eos et accusam et justo duo dolores et ea rebum.
-  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-  If you like this theme and want to use it for yourself,
-  checkout the source code and the documentation at
-  <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
-  You can also find me on
-  <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">
-  JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.
-
+  I, Luffy Yu, 于留传 (yú liú chuán) in Chinese, was born in Heze, Shandong and with a sense of genuineness, warm-heartedness, kind-heartedness, and vigor.
+  When I was young, I loved playing TV games (e.g. 小霸王 in Chinese) and computer games (e.g. the Road Rash).
+  In other words, I was not hard-working in the study.
+  In 2008, I got admitted into the <a class="highlight-link" href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E7%9C%81%E8%8F%8F%E6%B3%BD%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6" target="_blank" rel="noreferrer">Heze No.1 middle school</a>.
+  After that, I entered the <a class="highlight-link" href="http://www.sdust.edu.cn/" target="_blank" rel="noreferrer"> Shandong University of Science and Technology</a>.
+  And then, I luckily matriculated at <a class="highlight-link" href="https://bjtu.edu.cn/" target="_blank" rel="noreferrer"> Beijing Jiaotong University</a> for a master's degree in software engineering.
+  And I felt highly honoured to be supervised by Associate Professor <a class="highlight-link" href="http://faculty.bjtu.edu.cn/7799/" target="_blank" ref="noreferrer">Hua Huang</a>.
+  Fortunately, I graduated in this magic year, 2020.
+  My hobbies are <a class="highlight-link" href="#" target="_blank" rel="noreferrer">running</a>, playing badminton, hiking, climbing mountains, listening to English songs, and watching movies (e.g. the Marvel movies).
+  Last but not least, I am not immune to fantastic technologies and I have been enjoying coding.
+  More often than not, I am a bit geeky.
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
@@ -97,7 +91,7 @@ show_contact_card: false
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer">Github</a>.
 
 # GITHUB-METADATA
 # Set this to your forked repository
