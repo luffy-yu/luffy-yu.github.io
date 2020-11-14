@@ -21,6 +21,8 @@ email: yuliuchuan@gmail.com
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
 github_username: luffy-yu
+weibo_username: 717208544
+qq_username: 717208544
 codepen_username:
 dev_username:
 linkedin_username:
@@ -89,11 +91,17 @@ os_projects_title: Open Source Projects
 # show_contact_card:
 # > setting this to true, will display the Contact section
 # > setting this to false, will omit the Contact section
-show_contact_card: false
+show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer">Github</a>.
+contact_description:
+  You can reach out to me via the followings.
+  Or you can directly add my <a class="highlight-link" href="/assets/img/wechat.jpg" target="_self" rel="noreferrer">
+  <svg class="social-svg" viewBox="0 0 22 22" width="22px" height="22px">
+  <use x="0" y="0" width="22" height="22" viewBox="0 0 22 22" xlink:href="/assets/img/brands.svg#weixin"></use>
+  </svg>
+  </a>.
 
 # GITHUB-METADATA
 # Set this to your forked repository
