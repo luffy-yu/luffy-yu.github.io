@@ -38,14 +38,16 @@ about_me_description:
   I, Luffy Yu, 于留传 (yú liú chuán) in Chinese, was born in Heze, Shandong and with a sense of genuineness, warm-heartedness, kind-heartedness, and vigor.
   When I was young, I loved playing TV games (e.g. 小霸王 in Chinese) and computer games (e.g. the Road Rash).
   In other words, I was not hard-working in the study.
-  In 2008, when Beijing held the 29th Summer Olympics, I got admitted into the <a class="highlight-link" href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E7%9C%81%E8%8F%8F%E6%B3%BD%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6" target="_blank" rel="noreferrer">Heze No.1 middle school</a>.
-  After that, I entered the <a class="highlight-link" href="http://www.sdust.edu.cn/" target="_blank" rel="noreferrer"> Shandong University of Science and Technology</a>.
-  And then, I luckily matriculated at <a class="highlight-link" href="https://bjtu.edu.cn/" target="_blank" rel="noreferrer"> Beijing Jiaotong University</a> for a master's degree in software engineering.
-  And I felt highly honoured to be supervised by Associate Professor <a class="highlight-link" href="http://faculty.bjtu.edu.cn/7799/" target="_blank" ref="noreferrer">Hua Huang</a>.
+  In 2008, when Beijing held the 29th Summer Olympics, I got admitted into the <a class="highlight-link" href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E7%9C%81%E8%8F%8F%E6%B3%BD%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6" target="_blank" rel="noreferrer">Heze No.1 Middle School</a>.
+  After that, I entered the <a class="highlight-link" href="http://www.sdust.edu.cn/" target="_blank" rel="noreferrer">Shandong University of Science and Technology</a>.
+  And then, I luckily matriculated at <a class="highlight-link" href="https://www.bjtu.edu.cn/" target="_blank" rel="noreferrer">Beijing Jiaotong University</a> for a master's degree in software engineering.
+  And I felt highly honoured to be supervised by Associate Professor <a class="highlight-link" href="http://faculty.bjtu.edu.cn/7799/" target="_blank" rel="noreferrer">Hua Huang</a>.
   Fortunately, I graduated in this magic year, 2020.
-  My hobbies are <a class="highlight-link" href="#" target="_blank" rel="noreferrer">running</a>, playing badminton, hiking, climbing mountains, listening to English songs, and watching movies (e.g. the Marvel movies).
+  My hobbies are running, playing badminton, hiking, climbing mountains, listening to English songs, and watching movies (e.g. the Marvel movies).
   Last but not least, I am not immune to fantastic technologies and I have been enjoying coding.
   More often than not, I am a bit geeky.
+# <a class="highlight-link" href="#" target="_blank" rel="noreferrer">running</a>
+
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
@@ -58,12 +60,12 @@ skills_title: Skills
 # show_timeline_card:
 # > setting this to true, will display the Timeline section
 # > setting this to false, will omit the Timeline section
-show_timeline_card: false
+show_timeline_card: True
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: https://drive.google.com/file/d/18OOk3V2aPxNbWkNJiKs8Z6UnkCNXVLeX/view?usp=sharing
 
 # PROJECTS SECTION
 # show_projects_card:

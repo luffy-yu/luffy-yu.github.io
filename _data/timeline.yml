@@ -17,45 +17,125 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: LinkDoc
+  title-url: https://www.linkdoc.com/
+  date: Aug 2018 - Dec 2019
+  subtitle: Python System R&D Engineer
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Python
+    - tag: Linux
+    - tag: MacOS
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: EmoKit
+  title-url: http://www.emokit.com/
+  date: Feb 2018 - Jul 2018
+  subtitle: Machine Learning Engineer
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Machine Learning
+    - tag: Python
+    - tag: Flask
+    - tag: Linux
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: Beijing Jiaotong University
+  title-url: https://www.bjtu.edu.cn/
+  date: Sep 2017 - Jun 2020
+  subtitle: M.S. Software Engineering
+  tags:
+    - tag: Transfer Learning
+    - tag: Machine Learning
+    - tag: Data Warehouse
+    - tag: Parallel Computing
+    - tag: NLP
+    - tag: CUDA
+    - tag: Python
+    - tag: Matlab
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Watertek Fuxi
+  title-url: http://www.fuxitek.com/
+  date: Aug 2016 - Feb 2018
+  subtitle: Lab Researcher
   tags:
-    - tag: React
-    - tag: Node
+    - tag: C++
+    - tag: Python
+    - tag: PyQt
+    - tag: Hadoop
+    - tag: Kylin
+    - tag: MacOS
+    - tag: Objective-C
+  timeline-side: right
+
+- title: Watertek
+  title-url: http://www.watertek.com/
+  date: Jul 2015 - Aug 2016
+  subtitle: Software Engineer
+  tags:
+    - tag: C
+    - tag: C++
+    - tag: Qt
+    - tag: PyQt
+    - tag: Java
+    - tag: Html
+    - tag: Javascript
+    - tag: Python
+    - tag: SWIG
+    - tag: MySQL
+    - tag: Oracle
+    - tag: PostgreSQL
+    - tag: Android
+    - tag: ArcGIS
+    - tag: ArcPy
+  timeline-side: right
+
+- title: Esri China
+  title-url: http://www.esrichina.com.cn/
+  date: Aug 2014 - Feb 2015
+  subtitle: Technology Engineer as Intern
+  tags:
+    - tag: ArcGIS
+    - tag: C#
+    - tag: Qt
+    - tag: ArcPy
+    - tag: Flex
+    - tag: Android
+    - tag: Java
+    - tag: Html
     - tag: Javascript
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Shandong University of Science and Technology
+  title-url: http://www.sdust.edu.cn/
+  date: Sep 2011 - Jun 2015
+  subtitle: B.A. Remote Sensing
+  tags:
+    - tag: C
+    - tag: C++
+    - tag: C#
+    - tag: Qt
+    - tag: SQL
+    - tag: Python
+    - tag: Remote Sensing(RS)
+    - tag: Global Positioning System(GPS)
+    - tag: Geographic Information System(GIS)
+    - tag: Digital Image Processing
+    - tag: Digital Photogrammetry
+    - tag: Computer Network
+    - tag: Software Engineering
+    - tag: ERDAS
+    - tag: ArcGIS
+    - tag: ArcPy
+    - tag: ENVI
+    - tag: Matlab
+    - tag: IDL
+    - tag: Microsoft Visual Studio
+    - tag: Qt Creator
+  timeline-side: left
+
+- title: Heze No.1 Middle School
+  title-url: https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E7%9C%81%E8%8F%8F%E6%B3%BD%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6
+  date: Sep 2008 - Jun 2011
+  tags:
+    - tag: High School Student
   timeline-side: left
