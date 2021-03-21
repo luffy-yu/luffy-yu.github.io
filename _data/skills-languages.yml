@@ -37,3 +37,9 @@
 
 - name: SQL
   weight: 3
+
+- name: PHP
+  weight: 1
+
+- name: Swift
+  weight: 2

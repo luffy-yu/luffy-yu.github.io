@@ -17,6 +17,19 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: KoudaiCaifu
+  title-url: https://www.licaimofang.com/
+  date: Aug 2020 - Mar 2021
+  subtitle: Finance Development Engineer
+  tags:
+    - tag: Python
+    - tag: PHP
+    - tag: React
+    - tag: Docker
+    - tag: Redis
+    - tag: Gitlab CI/CD
+  timeline-side: right
+
 - title: LinkDoc
   title-url: https://www.linkdoc.com/
   date: Aug 2018 - Dec 2019
